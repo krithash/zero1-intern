@@ -1,0 +1,35 @@
+.navbar {
+  text-align: center;
+  padding: 1rem 2rem;
+  background-color: #333; /* Dark background */
+  color: white; /* Text color */
+}
+
+.navbar h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem; /* Increased space below the title */
+}
+
+.navbar ul {
+  display: flex; /* Arrange items in a row */
+  justify-content: space-evenly; /* Equal spacing between items */
+  list-style: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none; /* Remove underline */
+  color: white; /* Text color */
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #f0a500; /* Highlight on hover */
+}

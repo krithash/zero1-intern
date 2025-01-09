@@ -1,0 +1,55 @@
+.gallery {
+    padding: 2rem;
+    background-color: #f0f8ff;
+  }
+  
+  .gallery h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 0rem;
+  }
+  
+  .intro {
+    text-align: center;
+    margin-bottom: 0rem;
+  }
+  
+  .intro h3 {
+    color: #333;
+    font-size: 1.8rem;
+  }
+  
+  .intro p {
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  .creature {
+    display: flex; /* Use Flexbox for layout */
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    width: 400px; /* You can adjust the width as needed */
+  }
+  
+  .description {
+    max-width: 600px;
+  }
+  
+  .description h3 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 0rem;
+  }
+  
+  .description p {
+    color: #555;
+    font-size: 1rem;
+  }
+  
